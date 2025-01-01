@@ -1,8 +1,8 @@
 FROM nginx:alpine
 
-COPY . /usr/share/nginx/html
+COPY . index.html 
 
-RUN echo "This is Gaurav" > /gauravfile.txt
+#RUN echo "This is Gaurav" > /gauravfile.txt
 
 EXPOSE 80
 
