@@ -1,6 +1,6 @@
 FROM nginx:1.20
 
-COPY . . 
+COPY . /usr/share/nginx/html/
 
 #RUN echo "This is Gaurav" > /gauravfile.txt
 
