@@ -1,6 +1,7 @@
-FROM nginx:1.20
+FROM nginx:1.20 
 
 COPY . /usr/share/nginx/html/
+
 
 EXPOSE 80
 
