@@ -1,6 +1,6 @@
 FROM nginx:alpine
 
-COPY . index.html 
+COPY . . 
 
 #RUN echo "This is Gaurav" > /gauravfile.txt
 
